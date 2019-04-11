@@ -2,6 +2,7 @@ body{
     font-family: Verdana, Tahoma;
     background: url(../img/bc.jpg) no-repeat center center fixed; 
     background-size: cover;
+    height: 100vh;
     color: white;
 }
 
@@ -158,11 +159,6 @@ a{
 
 
 @media all and (max-width: 1014px) {
-    body{
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
     
     
     .footer {
