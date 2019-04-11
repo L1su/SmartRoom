@@ -161,23 +161,12 @@ a{
 
 
 @media all and (max-width: 1014px) {
-    .header{
-        padding: 40px 0px 0px 30px;
-    }
     
     
     .footer {
-        padding: 10px 20px 10px 20px;
-        height: 205px;
+            padding: 20px 20px 10px 20px;
     }
     
-    .footer:before{
-        height: 205px;
-    }
-    
-    .footer__devices{
-        padding-bottom: 5px;
-    }
     
     .nav__ul{
         -webkit-box-pack: start;
