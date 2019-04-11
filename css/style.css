@@ -161,6 +161,9 @@ a{
 
 
 @media all and (max-width: 1014px) {
+    .header{
+        padding: 40px 0px 0px 30px;
+    }
     
     
     .footer {
