@@ -18,12 +18,6 @@ a{
 }
 
 
-
-
-
-
-
-
 input[type=range] {
     height: 15px;
     background: none;
@@ -31,11 +25,13 @@ input[type=range] {
     opacity: 0.6;
 }
 
+
 input[type=range]:hover{
     opacity: 1;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
 }
+
 
 input[type=range]:focus {
     outline: none;
@@ -83,26 +79,6 @@ input[type=range]::-moz-range-thumb {
   background: #FFFFFF;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .header{
@@ -226,9 +202,11 @@ input[type=range]::-moz-range-thumb {
     padding: 10px 0px 5px 0px ;
 }
 
+
 .nav__status--on{
     color: green;
 }
+
 
 .nav__status--off{
     color: red;
@@ -238,18 +216,6 @@ input[type=range]::-moz-range-thumb {
 .nav__link{
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -287,6 +253,7 @@ h3.header__title{
     color: white;
     font-size: 2em;
 }
+
 
 .foot{
     position: absolute;
@@ -362,25 +329,10 @@ h3.header__title{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 1014px) {
     input[type=range] {
         opacity: 1;
     }
-    
-    
     
     
     .header{
@@ -442,6 +394,8 @@ h3.header__title{
     
     .foot__lrage {
         width: 100%;
+        padding-bottom: 15px;
+
     }
     
     
