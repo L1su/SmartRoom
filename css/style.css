@@ -2,6 +2,7 @@ html{
     height: 100%;
 }
 
+
 body{
     font-family: Verdana, Tahoma;
     background: url(../img/bc.jpg) no-repeat center center fixed; 
@@ -34,7 +35,6 @@ a{
 }
 
 
-
 .footer{
     position: fixed;
     bottom: 0;
@@ -45,10 +45,8 @@ a{
     height: 250px;
     padding: 20px 40px 10px 40px;
     border-radius: 25px 25px 0px 0px;
-    
     -webkit-box-shadow: rgba(0,0,0,0.1) -5px -3px 10px;
     box-shadow: inset rgba(0,0,0,0.4) 0px 5px 5px;
-    
     border-bottom: none;
     background: inherit;
     z-index: 1;
@@ -93,8 +91,6 @@ a{
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -102,8 +98,7 @@ a{
     -ms-flex-pack: space-around;
     justify-content: space-around;
     -ms-flex-line-pack: center;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 
@@ -111,9 +106,7 @@ a{
     height: 150px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 200px;
-    flex: 0 0 200px;
-    
-    
+    flex: 0 0 200px; 
     text-align: center;
     color: black;
     background: white;
@@ -156,8 +149,130 @@ a{
 
 
 .nav__link{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** SEKCJE **/
+.section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/biurko.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    z-index: 10;
+    display: none;
+}
+
+
+h3.header__title{
+    font-size: 2em;
+}
+
+
+.header__switch{
+    color: white;
+    font-size: 2em;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding-bottom: 55px;
+}
+
+
+.foot__lrage{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.foot__lrage:before{
+    font-size: 1.4em;
+    opacity: 0.3;
+    text-shadow: white 0px 0px 5px;
+}
+
+
+.foot__lrage:after{
+    font-size: 1.4em;
+    text-shadow: white 0px 0px 10px;
+}
+
+
+.foot__lrage--r:before, .foot__lrage--r:after{
+    content: '\f020';
+    color: red;
     
 }
+
+
+.foot__lrage--g:before, .foot__lrage--g:after{
+    content: '\f020';
+    color: green;
+}
+
+
+.foot__lrage--b:before, .foot__lrage--b:after{
+    content: '\f020';
+    color: blue;
+}
+
+
+.foot__lrage--brightness:before, .foot__lrage--brightness:after{
+    content: '\f185';
+}
+
+
+.foot__irage{
+    width: 15vw;
+}
+
+
+*:target{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -169,10 +284,12 @@ a{
         padding: 40px 0px 0px 30px;
     }
     
+    
     .footer {
         padding: 10px 20px 10px 20px;
         height: 205px;
     }
+    
     
     .footer:before{
         height: 205px;
@@ -187,21 +304,42 @@ a{
         height:  160px;
     }
     
+    
     .nav__li{
         -webkit-box-flex: 1;
         -ms-flex: 1 0 120px;
         flex: 1 0 120px;
         height: 130px;
-        margin:0px 5px;
-        
+        margin:0px 5px;    
     }
+    
     
     .nav__icon{
         font-size: 50px;
         height: 90px;
     }
     
+    
     .nav__panel{
         height: calc(100% - 90px);
+    }
+    
+    
+    
+    /*SEKCJE*/
+    .foot{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .foot__lrage {
+        width: 100%;
+    }
+    
+    .foot__irage{
+        width: 60vw;
     }
 }
