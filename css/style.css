@@ -247,13 +247,18 @@ input[type=range]::-moz-range-thumb {
 
 #lampka{
     background: url(../img/lampka.jpg) no-repeat center center fixed; 
-    /*** Photo by Josh Sorenson from Pexels ***/
 }
 
 
 #pc{
     background: url(../img/pc.jpg) no-repeat center center fixed; 
     /*** Photo by Constant Loubier on Unsplash ***/
+}
+
+
+#lampkanocna{
+    background: url(../img/lampkanocna.jpg) no-repeat center center fixed; 
+    /*** Photo by Burak K from Pexels ***/
 }
 
 h3.header__title{
@@ -341,6 +346,43 @@ h3.header__title{
 
 .foot__lrage--heat:before, .foot__lrage--heat:after{
     content: '\e80d';
+}
+
+
+.foot__lrage--radio{
+    display: none;
+}
+
+.foot__lrage--fire{
+    font-size: 3em;
+}
+
+.foot__lrage--light{
+    font-size: 3em;
+}
+
+.foot__lrage--blink{
+    font-size: 3em;
+    -webkit-animation: blink 5s linear infinite;
+    animation: blink 5s linear infinite;
+}
+
+@keyframes blink {  
+    0% { color: #fff;}
+    50% { color: #ff5700;}
+    100% {color: #fff;}
+}
+@-webkit-keyframes blink {
+    0% { color: #fff;}
+    50% { color: #ff5700;}
+    100% {color: #fff;}
+}
+
+
+input[type="radio"]:checked+label {
+    color: #ff5700;
+    -webkit-animation: none;
+    animation: none;
 }
 
 
