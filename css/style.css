@@ -261,6 +261,12 @@ input[type=range]::-moz-range-thumb {
     /*** Photo by Burak K from Pexels ***/
 }
 
+
+#szafa{
+    background: url(../img/szafa.jpg) no-repeat center center fixed; 
+    /*** Photo by Artem Beliaikin from Pexels ***/
+}
+
 h3.header__title{
     font-size: 2em;
     -webkit-margin-before: 0.67em;
