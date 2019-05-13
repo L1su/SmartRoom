@@ -42,7 +42,7 @@
           "sizes": "512x512",
           "type": "image/png"
         }
-    ]
+    ],
     "start_url": "/SmartRoom",
     "orientation": "portrait",
     "background_color": "#000000",
