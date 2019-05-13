@@ -3,7 +3,7 @@
     "short_name": "Room",
     "description": "Zarządzanie twoim smart pokojem!",
     "icons": [],
-    "start_url": ".",
+    "start_url": "/",
     "orientation": "portrait",
     "background_color": "#000000",
     "theme_color": "#000000",
