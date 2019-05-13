@@ -474,6 +474,15 @@ input[type="radio"]:checked+label {
     
     
     /*SEKCJE*/
+    #lampka {
+        background-position: 32% 24%;
+    }
+    
+    
+    #lampkanocna{
+            background-position: 72% 52%;
+    }
+    
     .foot{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
