@@ -163,6 +163,7 @@ input[type=range]::-moz-range-thumb {
     justify-content: space-around;
     -ms-flex-line-pack: center;
     align-content: center; 
+    border-radius: 5px;
 }
 
 
