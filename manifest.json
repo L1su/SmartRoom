@@ -1,6 +1,5 @@
 {
     "name": "Smart Room",
-    "short_name": "Room",
     "description": "Zarządzanie twoim smart pokojem!",
     "icons": [],
     "start_url": "/",
