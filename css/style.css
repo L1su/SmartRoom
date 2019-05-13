@@ -141,11 +141,6 @@ input[type=range]::-moz-range-thumb {
 }
 
 
-.nav{
-   
-}
-
-
 .nav a{
     color: black;
 }
@@ -481,7 +476,15 @@ input[type="radio"]:checked+label {
     
     
     #lampkanocna{
-            background-position: 72% 52%;
+        background-position: 72% 52%;
+    }
+    
+    
+    #lampkanocna .section__footer{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
     }
     
     .foot{

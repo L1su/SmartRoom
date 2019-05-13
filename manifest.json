@@ -1,7 +1,48 @@
 {
     "name": "Smart Room",
     "description": "Zarządzanie twoim smart pokojem!",
-    "icons": [],
+    "icons": [
+       {
+          "src": "img/pwa72x72.png",
+          "sizes": "72x72",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa128x128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa144x144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa152x152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa384x384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+        },
+        {
+          "src": "img/pwa512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+    ]
     "start_url": "/SmartRoom",
     "orientation": "portrait",
     "background_color": "#000000",
