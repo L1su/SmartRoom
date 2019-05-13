@@ -5,7 +5,7 @@ html{
 
 body{
     font-family: Verdana, Tahoma;
-    background: url(../img/bc.jpg) no-repeat center center fixed; 
+    background: url(../img/bc.webp) no-repeat center center fixed; 
     /*** Foto de Lisa Fotios no Pexels ***/
     background-size: cover;
     -webkit-box-sizing: border-box;
@@ -91,8 +91,8 @@ input[type=range]::-moz-range-thumb {
 .header__menu{
     font-size: 150%;
     color: white;
+    
 }
-
 
 .header__title{
     padding-top: 20px;
@@ -241,30 +241,30 @@ input[type=range]::-moz-range-thumb {
 
 
 #biurko{
-    background: url(../img/biurko.jpg) no-repeat center center fixed; 
+    background: url(../img/biurko.webp) no-repeat center center fixed; 
     /*** Photo by Josh Sorenson from Pexels ***/
 }
 
 
 #lampka{
-    background: url(../img/lampka.jpg) no-repeat center center fixed; 
+    background: url(../img/lampka.webp) no-repeat center center fixed; 
 }
 
 
 #pc{
-    background: url(../img/pc.jpg) no-repeat center center fixed; 
+    background: url(../img/pc.webp) no-repeat center center fixed; 
     /*** Photo by Constant Loubier on Unsplash ***/
 }
 
 
 #lampkanocna{
-    background: url(../img/lampkanocna.jpg) no-repeat center center fixed; 
+    background: url(../img/lampkanocna.webp) no-repeat center center fixed; 
     /*** Photo by Burak K from Pexels ***/
 }
 
 
 #szafa{
-    background: url(../img/szafa.jpg) no-repeat center center fixed; 
+    background: url(../img/szafa.webp) no-repeat center center fixed; 
     /*** Photo by Artem Beliaikin from Pexels ***/
 }
 
