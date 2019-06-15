@@ -5,6 +5,7 @@
  Strona tworzona z naciskiem na **mobile first** (pierwszy taki projekt w moim wykonaniu) z przeznaczniem na urządzenia mobilne jako "aplikacja" dzieki **PWA**
  
  ## :dart: Cele projektu:
+ - Nauka FlexBoxa
  - Nauka BEM
  - Optymalizacja kodu oraz grafiki
  - Użycie PWA
