@@ -11,6 +11,6 @@
  - Mobile First
  
 ## :camera: Zrzuty:
-![PWA na laptopie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Lap.png)
-![PWA na Telefonie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Tel.jpg)
+![PWA na laptopie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Lap.png | width: 600px;)
+![PWA na Telefonie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Tel.jpg | width: 600px;)
 
