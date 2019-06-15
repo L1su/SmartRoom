@@ -7,10 +7,10 @@
  ## :dart: Cele projektu:
  - Nauka BEM
  - Optymalizacja kodu oraz grafiki
- - Uzycie PWA
+ - Użycie PWA
  - Mobile First
  
-## :eyes: Zrzuty:
-![PWA na laptopie](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![PWA na Telefonie](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+## :camera: Zrzuty:
+![PWA na laptopie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Lap.png)
+![PWA na Telefonie](https://raw.githubusercontent.com/L1su/SmartRoom/master/Tel.jpg)
 
